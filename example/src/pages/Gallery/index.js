@@ -1,6 +1,6 @@
 import React from 'react';
 import Document from 'components/Document';
-import { PhotoSwipeGallery } from 'react-photoswipe';
+import { PhotoSwipeGallery } from 'react-photoswiper';
 
 class GalleryPage extends React.Component {
   state = {
