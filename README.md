@@ -1,4 +1,4 @@
-# React PhotoSwipe
+# React PhotoSwiper
 
 PhotoSwipe, PhotoSwipeGallery component for ReactJS base on [PhotoSwipe](http://photoswipe.com/).
 
@@ -7,12 +7,12 @@ PhotoSwipe, PhotoSwipeGallery component for ReactJS base on [PhotoSwipe](http://
 ### NPM
 
 ```bash
-npm install --save react-photoswipe
+npm install --save react-photoswiper
 ```
 
 ### Bower
 ```bash
-bower install --save react-photoswipe
+bower install --save react-photoswiper
 ```
 
 ## Usage
@@ -22,13 +22,13 @@ bower install --save react-photoswipe
 #### With webpack:
 
 ```js
-import 'react-photoswipe/lib/photoswipe.css';
+import 'react-photoswiper/lib/photoswipe.css';
 ```
 
 #### Without webpack:
 
 ```html
-<link rel="stylesheet" type="text/css" href="path/to/react-photoswipe/lib/photoswipe.css">
+<link rel="stylesheet" type="text/css" href="path/to/react-photoswiper/lib/photoswipe.css">
 ```
 
 ### JS
@@ -36,7 +36,7 @@ import 'react-photoswipe/lib/photoswipe.css';
 #### PhotoSwipe
 
 ```js
-import {PhotoSwipe} from 'react-photoswipe';
+import {PhotoSwipe} from 'react-photoswiper';
 
 let isOpen = true;
 
@@ -70,7 +70,7 @@ handleClose = () => {
 #### PhotoSwipeGallery
 
 ```js
-import {PhotoSwipeGallery} from 'react-photoswipe';
+import {PhotoSwipeGallery} from 'react-photoswiper';
 
 let items = [
   {
@@ -105,13 +105,13 @@ getThumbnailContent = (item) => {
 ### UMD
 
 ```html
-<link rel="stylesheet" type="text/css" href="path/to/react-photoswipe/dist/photoswipe.css">
-<script src="path/to/react-photoswipe/dist/react-photoswipe.js"></script>
+<link rel="stylesheet" type="text/css" href="path/to/react-photoswiper/dist/photoswipe.css">
+<script src="path/to/react-photoswiper/dist/react-photoswipe.js"></script>
 ```
 
 ```js
-var PhotoSwipe = window.ReactPhotoswipe.PhotoSwipe;
-var PhotoSwipeGallery = window.ReactPhotoswipe.PhotoSwipeGallery;
+var PhotoSwipe = window.ReactPhotoswiper.PhotoSwipe;
+var PhotoSwipeGallery = window.ReactPhotoswiper.PhotoSwipeGallery;
 ```
 
 Example [here](http://codepen.io/vn38minhtran/pen/XmVdvW/)
@@ -185,4 +185,4 @@ imageLoadComplete(instance, index, item);
 
 ## Demo
 
-View [demo](http://minhtranite.github.io/react-photoswipe) or example folder.
+View [demo](https://github.com/hqwlkj/ReactPhotoSwiper) or example folder.
